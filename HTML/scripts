@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>menu</title>
+    <meta charset="utf-8">
+    </head>
+<body>
+    <script>
+        var vehicule = {
+            constructor(x,y) {
+           this.x: x,
+            this.y: y,
+            } 
+            deplacer(n){
+                this.x += n;
+                this.y += n:;
+                console.log('la voiture a ete deplace de {n} pas.');
+                console.log('nouvelle position : x = {this.x}, y={this.y}');
+            }
+        }
+
+    </script>
+    </body>
+
+   
